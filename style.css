@@ -19,6 +19,15 @@ body {
     padding: 0 15px;
 }
 
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
 /* Меню */
 .header {
     background-color: #DD837C;
@@ -50,11 +59,61 @@ body {
     justify-content: space-between;
 }
 
-a {
-    text-decoration: none;
-    transition: all 0.3s ease;
+
+
+
+/* Главная */
+.welc_page {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1520px;
+    display: flex;
+    margin-top: 70px;
 }
 
-a:hover {
-    color: blanchedalmond;
+.welc_page .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.welc_img {
+    width: 622px;
+    height: 657px;
+}
+
+.welc_title {
+    margin-bottom: 15px;
+    width: 662.01px;
+    height: 89.82px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #30395B;
+
+
+}
+
+.welc_txt {
+    width: 700px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #30395B;
+
+
+}
+
+.welc_btn {
+    width: 324px;
+    height: 94px;
+    background: #5C6482;
+    border-radius: 51px;
+    font-family: 'Bellota';
+    font-weight: 700;
+    font-size: 34px;
+    color: #FFFFFF;
+}
+
+.welc_btn:hover {
+    background: linear-gradient(90deg, #5C6482 0%, #373B4D 52%, #232734 100%);
 }
